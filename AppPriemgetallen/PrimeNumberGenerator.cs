@@ -26,7 +26,7 @@ namespace AppPriemgetallen
                 int sqrt = (int)Math.Sqrt(nextPrime);
                 bool isPrime = true;
 
-                for (int i = 0; (int)primeNumbers[i] <= sqrt; i++)
+                for (int i = 0; primeNumbers[i] <= sqrt; i++)
                 {
                     if (nextPrime % primeNumbers[i] == 0)
                     {
